@@ -194,20 +194,20 @@ a:hover {
 	}
 
 	.hex.hex-1 {
-		background: #ec6a00;
+		background: #00a48c;
 	}
 
 	.hex.hex-1:hover {
-		background: #a65a00;
+		background: #00a48c;
 		transition: .5s;
 	}
 
 	.hex.hex-2 {
-		background: #008da4;
+		background: #d44a42;
 	}
 
 	.hex.hex-2:hover {
-		background: #006778;
+		background: #d42d22;
 		transition: .5s;
 	}
 
