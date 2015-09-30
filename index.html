@@ -17,11 +17,15 @@
   		<div class="corner-2"></div>
   	</div>
 
-  	<div class="hex" style="background-image: url(img/rainyday.jpg);">
-  		<a href="http://rainydayorchards.com"></a>
+  	<div class="hex modal-trigger3" href="#modal3" style="background-image: url(img/rainyday.jpg);">
   		<div class="corner-1"></div>
   		<div class="corner-2"></div>
   	</div>
+    <!-- Modal Structure / RAINY -->
+    <div id="modal3" class="modal center-align">
+        <img src="img/rainy.png" alt="rainy">
+        <p>This is a logo I designed for an olive orchard called Rainy Day Orchards.</p>
+    </div>
 
   	<div class="hex" style="background-image: url(img/scissors.png);">
   		<a href="http://intense-eyrie-2941.herokuapp.com/"></a>
@@ -104,6 +108,7 @@
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
       $('.modal-trigger').leanModal();
       $('.modal-trigger2').leanModal();
+      $('.modal-trigger3').leanModal();
     });
   </script>
 

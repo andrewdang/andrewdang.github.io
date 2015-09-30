@@ -214,7 +214,16 @@ html {
  background-color: #c2c2c2;
 }
 
-#modal2 {
+#modal2,
+#modal3 {
   background: #dddddd;
   font-size: 22px;
+}
+
+#modal3 {
+  width: 428px;
+}
+
+#modal3 img {
+  margin-top: -2px;
 }
