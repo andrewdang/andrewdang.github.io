@@ -1,1 +1,1 @@
-A site to showcase my projects. View it [here](andrewdang.github.io).
+A site to showcase my projects. View it at https://andrewdang.github.io/
