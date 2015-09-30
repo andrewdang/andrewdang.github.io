@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Andrew Dang</title>
 </head>
@@ -33,27 +35,40 @@
   		<div class="corner-2"></div>
   	</div>
 
-  	<div class="hex hex-2">
-  		<div class="inner">
-  				<p>ANDREW</p>
-  				<hr />
-  				<p>DANG</p>
-  		</div>
-  		<a href="#"></a>
-  		<div class="corner-1"></div>
-  		<div class="corner-2"></div>
-  	</div>
+    	<div class="hex hex-2 modal-trigger2" href="#modal2">
+    		<div class="inner">
+    				<p>ANDREW</p>
+    				<hr />
+    				<p>DANG</p>
+    		</div>
+    		<a href="#"></a>
+    		<div class="corner-1"></div>
+    		<div class="corner-2"></div>
+    	</div>
+      <!-- Modal Structure / ABOUT -->
+      <div id="modal2" class="modal center-align">
+        <div class="modal-content">
+          <p>Welcome to my site! Click on the other hexagon tiles to view some of my work or find out more about me. They are all live sites but you can check out the source code on my github. Feel free to contact me through <a href="emailto:andrew.dang1@gmail.com" target="_blank">email</a> or <a href="https://www.linkedin.com/in/andrewdang17" target="_blank">LinkedIn</a>!</p>
+        </div>
+      </div>
 
-  	<div class="hex hex-1">
-  		<div class="inner">
-  				<p>WEB</p>
-  				<hr />
-  				<p>DEVELOPER</p>
-  		</div>
-  		<a href="#"></a>
-  		<div class="corner-1"></div>
-  		<div class="corner-2"></div>
-  	</div>
+
+    	<div class="hex hex-1 modal-trigger" href="#modal1">
+    		<div class="inner">
+    				<p>WEB</p>
+    				<hr />
+    				<p>DEVELOPER</p>
+    		</div>
+    		<a href="#"></a>
+    		<div class="corner-1"></div>
+    		<div class="corner-2"></div>
+    	</div>
+      <!-- Modal Structure / RESUME -->
+      <div id="modal1" class="modal center-align">
+        <div class="modal-content">
+          <img src="img/resume.png" alt="resume">
+        </div>
+      </div>
 
   	<div class="hex" style="background-image: url(img/pizzabutt.png);">
   		<a  target="_blank" href="https://pizzabutt.bitballoon.com"></a>
@@ -79,5 +94,20 @@
   		<div class="corner-2"></div>
   	</div>
   </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal-trigger').leanModal();
+      $('.modal-trigger2').leanModal();
+    });
+  </script>
+
 </body>
+
+
 </html>

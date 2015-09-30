@@ -3,6 +3,7 @@ html {
   background-size: cover;
   height: 100vh;
   overflow-y: hidden;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -175,7 +176,6 @@ a:hover {
 	}
 
 	.hex h4 {
-		font-family: 'Josefin Sans', sans-serif;
 		margin:0;
 	}
 
@@ -188,7 +188,7 @@ a:hover {
 
 	.hex p {
 		font-size:16px;
-		font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
 		width:80%;
 		margin:0 auto;
 	}
@@ -210,3 +210,21 @@ a:hover {
 		background: #006778;
 		transition: .5s;
 	}
+
+  .btn {
+    background-color: #e83838;
+  }
+
+  .btn:hover {
+    background-color: #f42626;
+    color: #fff;
+  }
+
+  .modal {
+   background-color: #c2c2c2;
+  }
+
+  #modal2 {
+    background: #dddddd;
+    font-size: 20px;
+  }
