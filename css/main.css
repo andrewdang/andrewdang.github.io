@@ -6,6 +6,10 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+.hex {
+  cursor: pointer;
+}
+
 
 #info {
 	background:#333;
@@ -153,7 +157,7 @@ html {
 	-webkit-transform: scale(0.9);
 	-ms-transform: scale(0.9);
 	transform: scale(0.9);
-	transition: 1s ease;
+	transition: .5s ease;
 }
 
 /* Custom styles*/
@@ -184,11 +188,11 @@ html {
 }
 
 .hex.hex-1 {
-	background: #00a48c;
+	background: #359e8f;
 }
 
 .hex.hex-1:hover {
-	background: #007a68;
+	background: #007c6a;
 	transition: .5s;
 }
 
