@@ -44,7 +44,7 @@ html {
 .hex {
 	width:150px;
 	height:86px;
-	background-color: #ccc;
+	background-color: inherit;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: auto 173px;
