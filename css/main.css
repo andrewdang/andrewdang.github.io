@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/background.png') no-repeat center center;
+  background: url('../img/background.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   overflow-y: hidden;
@@ -201,7 +201,7 @@ html {
 }
 
 .hex.hex-2:hover {
-	background: #d42d22;
+	background: #a73c35;
 	transition: .5s;
 }
 
@@ -216,6 +216,7 @@ html {
 
 .modal {
  background-color: #c2c2c2;
+ height: auto;
 }
 
 #modal2,
