@@ -1,5 +1,5 @@
 html {
-  background: url('../img/background.png') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/background.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   overflow-y: hidden;
@@ -216,7 +216,6 @@ html {
 
 .modal {
  background-color: #c2c2c2;
- height: auto;
 }
 
 #modal2,
