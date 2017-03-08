@@ -194,11 +194,11 @@ html {
 }
 
 .hex.hex-1 {
-	background: #359e8f;
+	background: #6f6f6f;
 }
 
 .hex.hex-1:hover {
-	background: #007c6a;
+	background: #5c5c5c;
   -webkit-transition: .5s;
   -moz-transition: .5s;
   -ms-transition: .5s;
